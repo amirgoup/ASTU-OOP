@@ -1,4 +1,5 @@
-/*This Java code is an example of a program that takes user input for a score and then assigns a letter grade based on the score. The program uses if-else statements to check the value of the score and then assigns the appropriate letter grade.*/
+/*This Java code is an example of a program that takes user input for a score and then assigns a letter grade based on the score. 
+The program uses if-else statements to check the value of the score and then assigns the appropriate letter grade.*/
 import java.util.Scanner;
 
 public class IfElse {
