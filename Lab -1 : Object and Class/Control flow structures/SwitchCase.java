@@ -3,7 +3,7 @@ It then prompts the user to enter a number corresponding to a month.
 The switch statement evaluates the value of month and assigns the corresponding string value to monthString. */
 import java.util.Scanner;
 
-public class SwitchDemo {
+public class SwitchCase {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a month number: ");
