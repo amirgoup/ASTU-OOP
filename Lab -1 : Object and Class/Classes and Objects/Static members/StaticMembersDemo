@@ -1,0 +1,21 @@
+class StaticMembersDemo {
+    static int count = 0;
+    int id;
+
+    StaticMembersDemo() {
+        id = ++count;
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        StaticMembersDemo obj1 = new StaticMembersDemo();
+        StaticMembersDemo obj2 = new StaticMembersDemo();
+        StaticMembersDemo obj3 = new StaticMembersDemo();
+
+        System.out.println("Object 1 ID: " + obj1.id);
+        System.out.println("Object 2 ID: " + obj2.id);
+        System.out.println("Object 3 ID: " + obj3.id);
+        System.out.println("Total objects created: " + StaticMembersDemo.count);
+    }
+}
