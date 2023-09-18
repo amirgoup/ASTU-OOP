@@ -1,6 +1,6 @@
 import java.io.CharArrayReader;
 
-public class Main {
+public class CharArrayReaderExample {
     public static void main(String[] args) {
         char[] data = {'T', 'h', 'i', 's', ' ', 'i', 's', ' ', 'a', ' ', 't', 'e', 's', 't'};
         try {
