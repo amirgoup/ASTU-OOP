@@ -1,7 +1,7 @@
 import java.io.FileWriter;
 import java.io.BufferedWriter;
 
-public class Main {
+public class BufferedWriterExample {
     public static void main(String[] args) {
         String data = "This is the data in the output file";
         try {
