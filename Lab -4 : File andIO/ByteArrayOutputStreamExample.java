@@ -1,4 +1,4 @@
-package com.astu;
+
 import java.io.*;
 
 public class ByteArrayOutputStreamExample {
