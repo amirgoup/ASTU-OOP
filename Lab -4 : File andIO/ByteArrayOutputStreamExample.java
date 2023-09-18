@@ -1,7 +1,7 @@
 package com.astu;
 import java.io.*;
 
-public class DataStreamExample {
+public class ByteArrayOutputStreamExample {
     public static void main(String args[]) throws Exception {
         FileOutputStream fout1 = new FileOutputStream("D:\\f1.txt");
         FileOutputStream fout2 = new FileOutputStream("D:\\f2.txt");
